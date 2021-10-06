@@ -1,6 +1,6 @@
 check50:
   checks:
     hello world:
-      - run: make hello && ./hello.c
+      - run: ./hello.c
         stdout: Hello, world!
         exit: 0
