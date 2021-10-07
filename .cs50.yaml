@@ -2,5 +2,5 @@ check50:
   checks:
     hello world:
       - run: ./hangman test
-        stdout: _ _ _ _ Guess a letter:
+        stdout: _ _ _ _ Guess a letter: 
         exit: 0
