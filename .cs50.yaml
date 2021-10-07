@@ -6,9 +6,5 @@ check50:
           - e
           - t
           - s
-        stdout: |
-          _ _ _ _ Guess a letter: 
-          _ e _ _ Guess a letter: 
-          t e _ t Guess a letter: 
-          t e s t You guessed it!
+        stdout: _ _ _ _ Guess a letter: _ e _ _ Guess a letter: t e _ t Guess a letter: t e s t You guessed it!
         exit: 0
