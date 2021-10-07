@@ -1,6 +1,6 @@
 check50:
   checks:
-    hello world:
+    test:
       - run: ./hangman test
         stdin:
           - e
