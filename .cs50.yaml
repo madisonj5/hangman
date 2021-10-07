@@ -5,7 +5,7 @@ check50:
         stdin:
           - e
           - t
-        stdout: |
+        stdout: 
           - '_ _ _ _ Guess a letter: '
           - '_ e _ _ Guess a letter: '
           - 't e _ t Guess a letter: '
