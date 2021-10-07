@@ -2,10 +2,10 @@ check50:
   checks:
     hello world:
       - run: ./hangman test
-      stdin:
-        - e
-        - t
-       stdout:
-         - _ e _ _ Guess a letter: 
-         - t e _ t Guess a letter: 
+        stdin:
+          - e
+          - t
+        stdout:
+          - _ e _ _ Guess a letter: 
+          - t e _ t Guess a letter: 
         exit: 0
