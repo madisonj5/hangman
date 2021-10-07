@@ -10,5 +10,5 @@ check50:
           _ _ _ _ Guess a letter: 
           _ e _ _ Guess a letter: 
           t e _ t Guess a letter: 
-          t e S t You guessed it!
+          t e s t You guessed it!
         exit: 0
