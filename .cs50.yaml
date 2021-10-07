@@ -2,5 +2,13 @@ check50:
   checks:
     hello world:
       - run: ./hangman test
-        stdout: '_ _ _ _ Guess a letter: '
+        stdin:
+          - e
+          - t
+          - s
+        stdout: |
+          _ _ _ _ Guess a letter: 
+          _ e _ _ Guess a letter: 
+          t e _ t Guess a letter: 
+          t e S t You guessed it!
         exit: 0
