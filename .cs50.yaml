@@ -8,3 +8,12 @@ check50:
           - s
         stdout: '_ _ _ _ Guess a letter: _ e _ _ Guess a letter: t e _ t Guess a letter: t e s t You guessed it!'
         exit: 0
+    hello:
+      - run: ./hangman test
+        stdin:
+          - h
+          - e
+          - l
+          - o
+        stdout: '_ _ _ _ _ Guess a letter: h _ _ _ _ Guess a letter: h e _ _ _ Guess a letter: h e l l _ Guess a letter: h e l l o You guessed it!'
+        exit: 0
