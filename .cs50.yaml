@@ -5,8 +5,9 @@ check50:
         stdin:
           - e
           - t
+          - w
           - s
-        stdout: '_ _ _ _ Guess a letter: _ e _ _ Guess a letter: t e _ t Guess a letter: t e s t You guessed it!'
+        stdout: '_ _ _ _ Guess a letter: _ e _ _ Guess a letter: t e _ t Guess a letter: t e _ t Guess a letter: t e s t You guessed it!'
         exit: 0
     hello:
       - run: ./hangman hello
