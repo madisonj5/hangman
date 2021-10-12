@@ -25,4 +25,6 @@ def newTest():
 @check50.check(compiles)
 def wrongLetter():
     """correctly handles wrong guess"""
-    check50.run("./hangman a").stdin("b").stdout("_ Guess a letter: ").exit(0)
+    output = check50.run("./hangman a").stdin("b")
+    if (output == "_ Guess a letter: ")
+        
