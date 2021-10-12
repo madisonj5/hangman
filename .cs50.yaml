@@ -22,5 +22,5 @@ check50:
       - run: ./hangman a
         stdin:
           - b
-        stdout: '_ Guess a letter: '
+        stdout: '_ You guessed it!'
         exit: 0
