@@ -15,3 +15,9 @@ def compiles():
 def test():
     """testing"""
     check50.run("./hangman a").stdin("a").stdout("a You guessed it!").exit(0)
+    
+    @check50.check(compiles)
+def test():
+    """testing"""
+    check50.run("./hangman a").stdin("a").stdout("a You guessed it!").exit(0)
+
