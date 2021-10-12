@@ -18,3 +18,9 @@ check50:
           - o
         stdout: '_ _ _ _ _ Guess a letter: h _ _ _ _ Guess a letter: h e _ _ _ Guess a letter: h e l l _ Guess a letter: h e l l o You guessed it!'
         exit: 0
+    properly handles guessing a letter not in the word:
+      - run: ./hangman word
+        stdin:
+          - a
+        stdout: '_ _ _ _ Guess a letter: '
+        exit: 0
