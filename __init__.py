@@ -19,5 +19,5 @@ def test():
 @check50.check(compiles)
 def newTest():
     """testing test"""
-    check50.run("./hangman test").stdin("e").stdin("t").stdin("w").stdin("s").stdout("'_ _ _ _ Guess a letter: _ e _ _ Guess a letter: t e _ t Guess a letter: t e _ t Guess a letter: t e s t You guessed it!").exit(0)
+    check50.run("./hangman test").stdin("e").stdin("t").stdin("w").stdin("s").stdout("t e s t You guessed it!").exit(0)
 
