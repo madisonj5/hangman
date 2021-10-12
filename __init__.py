@@ -5,7 +5,6 @@ import check50.c
 def exists():
     """hangman.c exists"""
     check50.exists("hangman.c")
-    check50.include("hangman.h")
     
 @check50.check(exists)
 def compiles():
