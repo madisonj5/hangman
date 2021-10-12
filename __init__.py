@@ -21,3 +21,8 @@ def newTest():
     """testing test"""
     check50.run("./hangman test").stdin("e").stdin("t").stdin("w").stdin("s").stdout("t e s t You guessed it!").exit(0)
 
+
+@check50.check(compiles)
+def wrongLetter():
+    """correctly handles wrong guess"""
+    check50.run("./hangman a").stdin("b").stdout("_ Guess a letter: ").exit(0)
